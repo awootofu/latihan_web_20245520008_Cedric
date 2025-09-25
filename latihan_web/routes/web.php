@@ -3,9 +3,13 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('latihan/index');
 });
 
-Route::get('latihan', function() {
+Route::get('/latihan', function() {
+    return view('latihan/latihan');
+});
 
+Route::get('/latihan_dua', function() {
+    return view('latihan/latihan2');
 });
