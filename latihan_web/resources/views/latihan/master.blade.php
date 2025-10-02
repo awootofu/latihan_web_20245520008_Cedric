@@ -1,6 +1,5 @@
-<!--call layout-->
 @extends('layout.default')
-<!--content-->
+
 @section ('main_content')
-    <p>This is index</p>
+content page here
 @endsection
